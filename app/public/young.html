@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Chikkibar | YOUNG ENTREPRENUER</title>
+        <!--bootstrap-->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!--css style sheet-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--bootstrap js-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!--icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                            <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                            <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                        <p id="menu">MENU</p>
+                    </svg>
+                </a>
+            </span>
+        </nav>
+        <!--navbar slideout side menu-->
+        <div id="side-menu" class="side-nav">
+            <span style="cursor:pointer" href="#" class="btn-close" onclick="closeSlideMenu()">&times;</span>
+            <a href="index.html">Home</a>
+            <hr>
+            <a href="young.html">Young Entrepreneur</a>
+            <hr>
+            <a href="contact.html">Contact</a>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12 background">
+                <img class="logo" src="images/ChikkibarLogoFixed.png" alt="Chikkibar Logo" height="auto" width="600px">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12 young">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-md-offset-3 young">
+                        <h2>About </h2>
+                        <hr>
+                        <img src="images/mohnishsoni.jpg" class="img-responsive" alt="Thats Me" width=200 height=auto>
+                        <span>Mohnish Soni is a 8th grade student at Iroquois Community School located in Des Plaines, Illinois. He is an energized entrepreneur
+                            who wants to make snack time healthier which is why he decided to launch Chikki Bar as a sole-proprietorship business
+                            with the help of Young Entrepreneurs Academy.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pimg1">
+            <div class="col-xs-12 col-md-12 ptext">
+                <p class="border">
+                    THE IDEA
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12 section2">
+                <span>Chikki Bar is a concept that originated with a family recipe. Mohnish’s grandmother would make
+                        these small bars or sometimes round shaped balls using peanuts, sesame seeds, and jaggery.
+                        The taste would be so yummy he couldn’t stop eating these. Most of all his parents never
+                        stopped him from eating these as they did candy bars. Mohnish thought this is something
+                        everyone would love. Mohnish wanted to learn how to make these so he spent time with
+                        Grandmother learning. He was surprised to learn that these snacks were made with so few
+                        ingredients that were natural with health benefits.
+                        
+                        There were no food colorings, no preservatives, and no chemicals. Being a vegetarian all his life,
+                        
+                        Mohnish has the habit of reading the ingredients label before purchasing anything. He noticed that he had no idea what
+                        many of the ingredients on the package were and most of them he couldn’t pronounce. This is
+                        what led Mohnish to launch Chikki Bar.</span>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-xs-12 col-md-12 images">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-3  slider">
+                            <a target="_blank" href="images/mohnishcertificate.png">
+                                <img style="cursor:pointer" src="images/mohnishcertificate.png" alt="peanut" width="300px" height="200px">
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-md-3  slider">
+                            <a target="_blank" href="images/YEA.jpg">
+                                <img style="cursor:pointer" src="images/YEA.jpg" alt="peanut" width="300px" height="200px">
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-md-3  slider">
+                            <a target="_blank" href="images/chikkibarinfo.png">
+                                <img style="cursor:pointer" src="images/chikkibarinfo.png" alt="peanut" width="300px" height="200px">
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-md-3  slider">
+                            <a target="_blank" href="images/ChikkiNews.png">
+                                <img style="cursor:pointer" src="images/ChikkiNews.png" alt="peanut" width="300px" height="200">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <script>
+            function openSlideMenu() {
+                document.getElementById('side-menu').style.width = '250px';
+                    // document.getElementById('main').style.marginLeft = '250px';
+            }
+            function closeSlideMenu() {
+                document.getElementById('side-menu').style.width = '0';
+                    // document.getElementById('main').style.marginLeft = '0';
+            }
+        </script>
+    </body>
+</html>

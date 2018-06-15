@@ -9,7 +9,7 @@ body {
 }
 .navbar{
     margin-bottom: 0px;
-    background-color:#01b866;
+    background-color:#fff;
     border-radius: 0 !important;
     overflow:hidden;
     height:64px;
@@ -32,7 +32,7 @@ span{
     list-style:none;
 }
 .navbar a:hover{
-    background-color:#b97d43;
+    background-color:#ddd;
     color:#fff;
 }
 #menu{
@@ -85,7 +85,10 @@ hr{
 .background{
     position: relative;
     margin-bottom: 0px;
-    background-image: url("../images/ChikkibarJumbo.png");
+    background-image: url("../images/ChikkibarJumbo");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 500px;
     min-width: 1024px;
     width: 100%;
@@ -154,7 +157,7 @@ hr{
     position: relative;
     background-color: #282e34;
     text-align: center;
-    color: rgb(29, 28, 28);
+    color: #ddd;
     letter-spacing: 1px;
 }
 
